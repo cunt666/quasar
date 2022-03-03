@@ -1,0 +1,16 @@
+{
+    "apps": [
+        {
+            "name": "api",
+            "cwd": "./app/back",
+            "script": "npm",
+            "args" : "run start"
+        },
+        {
+            "name": "frontend",
+            "cwd": "./app/front",
+            "script": "quasar",
+            "args" : "dev"
+        }
+    ]
+}
